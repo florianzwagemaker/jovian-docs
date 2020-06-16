@@ -1,13 +1,14 @@
 # Jovian - a user friendly genomics toolkit
 
 
-For citations, please use the following DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3666156.svg)](https://doi.org/10.5281/zenodo.3666156)  
+For citations, please use the following DOI:  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3666156.svg)](https://doi.org/10.5281/zenodo.3666156)  
 
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0) [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/DennisSchmitz/Jovian?include_prereleases)](https://github.com/DennisSchmitz/Jovian/releases) [![Snakemake](https://img.shields.io/badge/snakemake-≥5.4.3-brightgreen.svg?style=flat)](https://snakemake.readthedocs.io) 
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0) [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/DennisSchmitz/Jovian?include_prereleases)](https://github.com/DennisSchmitz/Jovian/releases) [![Snakemake](https://img.shields.io/badge/snakemake-≥5.17.0-brightgreen.svg?style=flat)](https://snakemake.readthedocs.io) 
 
 
-
-{==Change this description to something that can actually be read by other human beings==}
+{==Links throughout the site are currently broken==}  
+{==Might want change this description to something more up-to-date==}
 
 Jovian is a Public Health toolkit to automatically process raw NGS data from human clinical matrices (faeces, serum, etc.) into clinically relevant information. It has two main components:
 
@@ -40,8 +41,12 @@ Nanopore:
 
 - Data quality control (QC) and cleaning.  
   - Including library fragment length analysis, useful for sample preparation QC.  
-- Removal of human* data (patient privacy). _*<sup><sub>You can use [whichever reference you would like](../../wiki/Frequently-Asked-Questions#i-dont-care-about-removing-the-human-data-i-have-samples-that-are-from-other-species-can-i-also-automatically-remove-that). However, Jovian is intended for human clinical samples.</sup></sub>_  
+- Removal of human[^1] data (patient privacy).
 - Removal of PCR-duplicates.  
+
+
+[^1]:
+  You can use [whichever reference you would like](BROKEN_LINK). However, Jovian is intended for human clinical samples. 
 
 ### Metagenomics specific features
 
@@ -111,4 +116,4 @@ Keyword | Taxon used for scaffold selection | Notable virus species
 `HEV`   | _Orthohepevirus A_                | Hepatitis E  
 `PV`    | Papillomaviridae                  | Human Papillomavirus  
 `Flavi` | Flaviviridae                      | Dengue (work in progress)
-`all`   | All of the above                    | All of the above
+`all`   | All of the above                  | All of the above
