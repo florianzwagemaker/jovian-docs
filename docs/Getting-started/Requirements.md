@@ -84,4 +84,4 @@ However, it's still possible to [install the various databases manually](BROKEN)
 
 
 [^1]:
-    We suggest the latest human genome because Jovian is intended for clinical samples. You can however use any reference you'd like, as [explained here](../../wiki/Frequently-Asked-Questions#i-dont-care-about-removing-the-human-data-i-have-samples-that-are-from-other-species-can-i-also-automatically-remove-that).
+    We suggest the latest human genome because Jovian is intended for clinical samples. You can however use any reference you'd like, as [explained here](BROKEN).

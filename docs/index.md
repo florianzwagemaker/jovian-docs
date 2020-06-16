@@ -1,14 +1,23 @@
 # Jovian - a user friendly genomics toolkit
 
-
 For citations, please use the following DOI:  
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3666156.svg)](https://doi.org/10.5281/zenodo.3666156)  
 
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0) [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/DennisSchmitz/Jovian?include_prereleases)](https://github.com/DennisSchmitz/Jovian/releases) [![Snakemake](https://img.shields.io/badge/snakemake-≥5.17.0-brightgreen.svg?style=flat)](https://snakemake.readthedocs.io) 
 
 
-{==Links throughout the site are currently broken==}  
+{==Links throughout the site are currently (mostly) broken==}  
 {==Might want change this description to something more up-to-date==}
+
+
+## Quick download
+Use the following command to download the latest release of Jovian and move to the newly downloaded `Jovian/` directory.
+```bash
+git clone https://github.com/DennisSchmitz/Jovian.git; cd Jovian
+```
+Please see the [Requirements](Getting-started/Requirements.md) and [Installation](Getting-started/Installation.md) docs if you haven't used Jovian before.
+
+## Introduction
 
 Jovian is a Public Health toolkit to automatically process raw NGS data from human clinical matrices (faeces, serum, etc.) into clinically relevant information. It has two main components:
 
