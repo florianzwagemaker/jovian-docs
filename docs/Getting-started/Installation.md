@@ -7,8 +7,11 @@ For inexperienced users, we **strongly** recommend you to use the automated inst
 
 ## Downloading the package
 
+The command below will download the latest Jovian release and place it in a directory named `Jovian` and will automatically navigate to this newly made directory.
 
 ```bash
 git clone https://github.com/DennisSchmitz/Jovian.git; cd Jovian
 ```
 
+
+If you wish to 

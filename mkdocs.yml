@@ -47,8 +47,9 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.magiclink:
         repo_url_shorthand: true
-        user: squidfunk
-        repo: mkdocs-material
+        social_url_shorthand: true
+        user: DennisSchmitz
+        repo: Jovian
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.snippets:
