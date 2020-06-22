@@ -76,6 +76,8 @@ nav:
           - Reference based: Workflows/Nanopore/Reference.md
   - About:
       - Contributing &amp; Support: About/Contributing.md
-      - Changelog: About/Changelog.md
       - Acknowledgements: About/Acknowledgements.md
       - Authors: About/Authors.md
+  - Releases:
+      - Upgrading from 1.0.x to 1.1.x: Releases/Upgrading.md
+      - Changelog: Releases/Changelog.md

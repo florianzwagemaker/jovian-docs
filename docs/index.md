@@ -18,7 +18,7 @@ git clone https://github.com/DennisSchmitz/Jovian.git; cd Jovian
 <br>
 You can also use Jovian on a per-project basis. Replace `<project>` with the desired name of your project in the snippet below.
 ```bash
-git clone https://github.com/DennisSchmitz/Jovian.git <project>; cd <project>
+dir="<project>"; git clone https://github.com/DennisSchmitz/Jovian.git $dir; cd $dir
 ```
 Please see the [Requirements](Getting-started/Requirements.md) and [Installation](Getting-started/Installation.md) docs if you haven't used Jovian before.
 
