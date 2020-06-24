@@ -42,14 +42,3 @@
 |Trimmomatic|Bolger, A.M., M. Lohse, and B. Usadel, Trimmomatic: a flexible trimmer for Illumina sequence data. Bioinformatics, 2014. 30(15): p. 2114-20.|www.usadellab.org/cms/?page=trimmomatic|
 |Virus-Host Database|Mihara, T., Nishimura, Y., Shimizu, Y., Nishiyama, H., Yoshikawa, G., Uehara, H., ... & Ogata, H. (2016). Linking virus genomes with host taxonomy. Viruses, 8(3), 66.|http://www.genome.jp/virushostdb/note.html|
 |Virus-typing tools|Kroneman, A., Vennema, H., Deforche, K., Avoort, H. V. D., Penaranda, S., Oberste, M. S., ... & Koopmans, M. (2011). An automated genotyping tool for enteroviruses and noroviruses. Journal of Clinical Virology, 51(2), 121-125.|https://www.ncbi.nlm.nih.gov/pubmed/21514213|
-
-
-## test
-
-Directory      | Description
--------------- | -----------
-`docs`         | This contains the source files for the documentation.
-`pymdownx`     | This contains the source code for all the extensions.
-`requirements` | This contains files with lists of dependencies required dependencies for continuous integration.
-`tests`        | This contains the various tests that are run in order to ensure code health.
-`tools`        | This contains various tools that are necessary during development.
