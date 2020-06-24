@@ -7,7 +7,7 @@ For citations, please use the following DOI:
 
 
 {==Links throughout the site are currently (mostly) broken==}  
-{==Might want change this description to something more up-to-date==}
+{==Gotta change this description to something more up-to-date==}
 
 
 ## Quick download

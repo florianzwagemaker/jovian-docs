@@ -19,4 +19,4 @@ pip install mkdocs-material
 
 You're now free to make your suggestions.
 
-you can use `mkdocs serve` to see a preview of the documentation site in your browser. Please note that this command must te ran from the project-root. (where `mkdocs.yaml` is located)
+you can use `mkdocs serve` to see a preview of the documentation site in your browser. Please note that this command must be ran from the project-root. (where `mkdocs.yaml` is located)
