@@ -2,6 +2,7 @@
 
 This is merely the docs site, please see the actual [Jovian repo on Github](https://github.com/DennisSchmitz/Jovian) for the source code of Jovian.
 
+[Check the docs here](https://florianzwagemaker.github.io/jovian-docs/)
 
 ## How to contribute to these docs?
 
