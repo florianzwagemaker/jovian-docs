@@ -1,1 +1,1 @@
-WOW!
+[![../../img/Illumina-Vir-Reference-rulegraph.png](../../img/Illumina-Vir-Reference-rulegraph.png)](../../img/Illumina-Vir-Reference-rulegraph.png)

@@ -1,1 +1,1 @@
-WOW!
+[![../.../../../img/Illumina-metagenomics-rulegraph.png](../../img/Illumina-metagenomics-rulegraph.png)](../.../../../img/Illumina-metagenomics-rulegraph.png)
