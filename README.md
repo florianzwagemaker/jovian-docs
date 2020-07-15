@@ -1,5 +1,7 @@
 # This is the documentation site for Jovian
 
+![Documentation build](https://github.com/florianzwagemaker/jovian-docs/workflows/Documentation%20build/badge.svg?branch=master)
+
 This is merely the docs site, please see the actual [Jovian repo on Github](https://github.com/DennisSchmitz/Jovian) for the source code of Jovian.
 
 [Check the docs here](https://florianzwagemaker.github.io/jovian-docs/)
