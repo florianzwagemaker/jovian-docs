@@ -5,12 +5,14 @@ edit_uri: ""
 
 theme:
     name: material
+    icon:
+        logo: material/dna
 
 # standard config settings
     language: en
     features:
-      - tabs
-      - instant
+        - tabs
+        - instant
     palette:
         scheme: default
         primary: red
@@ -19,66 +21,71 @@ theme:
         text: Roboto
         code: Roboto Mono
     plugins:
-      - search
-      - awesome-pages
+        - search
+        - awesome-pages
 
 # extensions
 markdown_extensions:
-  - markdown.extensions.admonition
-  - markdown.extensions.attr_list
-  - markdown.extensions.codehilite:
+    - markdown.extensions.admonition
+    - markdown.extensions.attr_list
+    - markdown.extensions.codehilite:
         guess_lang: false
-  - markdown.extensions.def_list
-  - markdown.extensions.footnotes
-  - markdown.extensions.meta
-  - markdown.extensions.toc:
+    - markdown.extensions.def_list
+    - markdown.extensions.footnotes
+    - markdown.extensions.meta
+    - markdown.extensions.toc:
         permalink: true
-  - pymdownx.arithmatex
-  - pymdownx.betterem:
+    - pymdownx.arithmatex
+    - pymdownx.betterem:
         smart_enable: all
-  - pymdownx.caret
-  - pymdownx.critic
-  - pymdownx.details
-  - pymdownx.emoji:
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.emoji:
         emoji_index: !!python/name:materialx.emoji.twemoji
         emoji_generator: !!python/name:materialx.emoji.to_svg
-  # - pymdownx.highlight:
-  #     linenums_style: pymdownx-inline
-  - pymdownx.inlinehilite
-  - pymdownx.keys
-  - pymdownx.magiclink:
+    # - pymdownx.highlight:
+    #     linenums_style: pymdownx-inline
+    - pymdownx.inlinehilite
+    - pymdownx.keys
+    - pymdownx.magiclink:
         repo_url_shorthand: true
         social_url_shorthand: true
         user: DennisSchmitz
         repo: Jovian
-  - pymdownx.mark
-  - pymdownx.smartsymbols
-  - pymdownx.snippets:
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.snippets:
         check_paths: true
-  - pymdownx.superfences
-  - pymdownx.tabbed
-  - pymdownx.tasklist:
+    - pymdownx.superfences
+    - pymdownx.tabbed
+    - pymdownx.tasklist:
         custom_checkbox: true
-  - pymdownx.tilde
+    - pymdownx.tilde
+
+
+extra_javascript:
+    - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
+    - Assets/tables.js
 
 nav:
-  - Home: index.md
-  - Command Line Reference: CLI.md
-  - FAQ: FAQ.md
-  - Getting started:
-      - Requirements: Getting-started/Requirements.md
-      - Installation: Getting-started/Installation.md
-  - Workflows:
-      - Workflow overview: Workflows/Overview.md
-      - Illumina:
-          - Metagenomics: Workflows/Illumina/Metagenomics.md
-          - Reference based: Workflows/Illumina/Reference.md
-      - Nanopore:
-          - Reference based: Workflows/Nanopore/Reference.md
-  - About:
-      - Contributing &amp; Support: About/Contributing.md
-      - Acknowledgements: About/Acknowledgements.md
-      - Authors: About/Authors.md
-  - Releases:
-      - Upgrading from 1.0.x to 1.1.x: Releases/Upgrading.md
-      - Changelog: Releases/Changelog.md
+    - Home: index.md
+    - Command line reference: CLI.md
+    - FAQ and known issues: FAQ.md
+    - Getting started:
+        - Requirements: Getting-started/Requirements.md
+        - Installation: Getting-started/Installation.md
+    - Workflows:
+        - Workflow overview: Workflows/Overview.md
+        - Illumina:
+            - Metagenomics: Workflows/Illumina/Metagenomics.md
+            - Reference based: Workflows/Illumina/Reference.md
+        - Nanopore:
+            - Reference based: Workflows/Nanopore/Reference.md
+    - About:
+        - Contributing &amp; Support: About/Contributing.md
+        - Acknowledgements: About/Acknowledgements.md
+        - Authors: About/Authors.md
+    - Releases:
+        - Upgrading from 1.0.x to 1.1.x: Releases/Upgrading.md
+        - Changelog: Releases/Changelog.md

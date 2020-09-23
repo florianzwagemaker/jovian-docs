@@ -14,12 +14,12 @@ This is a complete overview of all the commands that can be used in Jovian. Plus
 
 Command         |Argument         |Explanation        |
 ---------       |---------        |---------          |
-`illumina-metagenomics`<br>`illumina-meta`<br>`ilm-meta`<br>`im` | N/A | Specifies the "Illumina-Metagenomics" workflow to be executed.<br>Must be accompanied by the following flag(s): <br> `-i`/`--input` | 
-`illumina-reference`<br>`illumina-ref`<br>`ilm-ref`<br>`ir` | N/A | Specifies the "Illumina-Reference" workflow to be executed.<br>Must be accompanied by the following flag(s): <br>`-i`/`--input`<br>`-ref`/`--reference` |
-`nanopore-reference`<br>`nanopore-ref`<br>`nano-ref`<br>`ont-ref`<br>`nr` | N/A | Specifies the "Nanopore-Reference" workflow to be executed.<br>Must be accompanied by the following flag(s): <br>`-i`/`--input`<br>`-ref`/`--reference`<br>`-pr`/`--primers`.
-`-i`    |[input directory] | This is the folder containing your input fastq files.<br>Default is `raw_data/`.<br>Both relative and absolute paths are accepted.  |
-`-ref`<br>`--reference`   | [Reference fasta] | Path to the fasta file you wish to use as a reference. Must be a complete path.<br>Both relative and absolute paths are accepted.<br>Example: `/path/to/reference/file.fasta` |
-`-pr`<br>`--primers`      | [Primers fasta]   | Only required in combination with the `nanopore-reference` workflow.<br>Path to the fasta file that contains all the primers used in order to produce the sequenced-amplicons.<br>Both relative and absolute paths are accepted.<br>Example: `/path/to/primer/file.fasta` |
+`illumina-metagenomics` /<br>`illumina-meta` /<br>`ilm-meta` /<br>`im` | N/A | Specifies the "Illumina-Metagenomics" workflow to be executed.<br>Must be accompanied by the following flag(s): <br> `-i`/`--input` | 
+`illumina-reference` /<br>`illumina-ref` /<br>`ilm-ref` /<br>`ir` | N/A | Specifies the "Illumina-Reference" workflow to be executed.<br>Must be accompanied by the following flag(s): <br>`-i`/`--input`<br>`-ref`/`--reference` |
+`nanopore-reference` /<br>`nanopore-ref` /<br>`nano-ref` /<br>`ont-ref` /<br>`nr` | N/A | Specifies the "Nanopore-Reference" workflow to be executed.<br>Must be accompanied by the following flag(s): <br>`-i`/`--input`<br>`-ref`/`--reference`<br>`-pr`/`--primers`.
+`-i`/<br>`--input`  |[input directory] | This is the folder containing your input fastq files.<br>Default is `raw_data/`.<br>Both relative and absolute paths are accepted.  |
+`-ref`/<br>`--reference`   | [Reference fasta] | Path to the fasta file you wish to use as a reference. Must be a complete path.<br>Both relative and absolute paths are accepted.<br>Example: `/path/to/reference/file.fasta` |
+`-pr`/<br>`--primers`      | [Primers fasta]   | Only required in combination with the `nanopore-reference` workflow.<br>Path to the fasta file that contains all the primers used in order to produce the sequenced-amplicons.<br>Both relative and absolute paths are accepted.<br>Example: `/path/to/primer/file.fasta` |
 
 #### Examples
 
@@ -66,6 +66,7 @@ Command                   |Arguments          |Explanation
 `-vt-force`<br>`--virus-typing-force` | `all` / `NoV` / `EV` / `RVA` / `HAV` / `HEV` / `PV` / `Flavi` | Same as `-vt` / `-virus-typing`, but overwrites existing output.<br>Can't be combined with other commands.<br>Use `-vt-help` for additional explanation. |
 `--start-nginx` | N/A | {==Debug only==}<br>Starts the nginx process which is used by Jupyter notebook in order to stream data. |
 `--stop-nginx`  | N/A | {==Debug only==}<br>Stops the nginx process which is used by Jupyter notebook in order to stream data. |
+`--reset-db`    | N/A | "Forgets" the locations of the installed databases.<br>**This does not delete the databases**.<br>Use this command only if the location of your databases has changed or if you accidentally made a mistake when filling in this information.
 
 #### Examples
 

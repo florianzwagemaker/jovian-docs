@@ -1,1 +1,1 @@
-[![../../img/Illumina-Vir-Reference-rulegraph.png](../../img/Illumina-Vir-Reference-rulegraph.png)](../../img/Illumina-Vir-Reference-rulegraph.png)
+[![../../Assets/img/Jovian_Workflow_Illumina_ref.svg](../../Assets/img/Jovian_Workflow_Illumina_ref.svg)](../../Assets/img/Jovian_Workflow_Illumina_ref.svg){target=_blank}
