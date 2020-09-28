@@ -23,3 +23,5 @@ pip install mkdocs-material
 You're now free to make your suggestions.
 
 you can use `mkdocs serve` to see a preview of the documentation site in your browser. Please note that this command must be ran from the project-root. (where `mkdocs.yml` is located)
+
+Site should be re-built automatically every time you push something to master branch
