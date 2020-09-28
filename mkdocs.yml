@@ -1,4 +1,5 @@
 site_name: Jovian docs
+site_url: https://jovian.rivm-bioinformatics.com
 repo_name: Jovian on Github
 repo_url: https://github.com/DennisSchmitz/Jovian
 edit_uri: ""
