@@ -27,7 +27,7 @@ The `bcl2fastq` naming scheme. which is compatible with Jovian, is as follows:
     For more information about this naming scheme, please refer to the [Illumina naming convention page][Illumina_filenaming]
 
 
-If you're using a naming scheme different than the one provided by Illumina, then make sure the names of your fastq files have the correct structure for processing by Jovian. For quick reference, the list below is a set of examples showing filenames which are compatible with Jovian.
+If you're using a naming scheme different than the one provided by Illumina, then make sure the names of your fastq files have the correct structure for processing by Jovian. For quick reference, the list below is a set of examples showing filenames which are compatible with Jovian.  
 
 ```
 Example_dataset1_R1.fastq.gz
@@ -38,7 +38,8 @@ Example_metagenomics-set_1.fq
 Example_metagenomics-set_2.fq
 Test_data_1.fastq
 Test_data_2.fastq
-```
+```  
+
 !!! warning
     We **strongly** discourage the use of special characters (`@/\![];+()&^%$#` etc) in your file names as well as the use of spaces.  
     Using spaces in your filenames is guaranteed to fail, please change these to underscores (`_`) beforehand.  
