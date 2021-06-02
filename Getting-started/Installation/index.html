@@ -1,0 +1,1132 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="canonical" href="https://jovian.rivm-bioinformatics.com/Getting-started/Installation/">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.6">
+    
+    
+      
+        <title>Installation - Jovian docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.875de78c.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.f1a3b89f.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#ef5552">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="deep-orange">
+  
+    
+    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#installation-instructions" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Jovian docs" class="md-header__button md-logo" aria-label="Jovian docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 2h2v2c0 1.44.68 2.61 1.88 3.78.86.83 2.01 1.63 3.21 2.42l-1.83 1.19C8.27 10.72 7.31 10 6.5 9.21 5.07 7.82 4 6.1 4 4V2m14 0h2v2c0 2.1-1.07 3.82-2.5 5.21-1.41 1.38-3.21 2.52-4.96 3.63-1.75 1.12-3.45 2.21-4.66 3.38C6.68 17.39 6 18.56 6 20v2H4v-2c0-2.1 1.07-3.82 2.5-5.21 1.41-1.38 3.21-2.52 4.96-3.63 1.75-1.12 3.45-2.21 4.66-3.38C17.32 6.61 18 5.44 18 4V2m-3.26 10.61c.99.67 1.95 1.39 2.76 2.18C18.93 16.18 20 17.9 20 20v2h-2v-2c0-1.44-.68-2.61-1.88-3.78-.86-.83-2.01-1.63-3.21-2.42l1.83-1.19M7 3h10v1l-.06.5H7.06L7 4V3m.68 3h8.64c-.24.34-.52.69-.9 1.06l-.51.44H9.07l-.49-.44c-.38-.37-.66-.72-.9-1.06m1.41 10.5h5.84l.49.44c.38.37.66.72.9 1.06H7.68c.24-.34.52-.69.9-1.06l.51-.44m-2.03 3h9.88l.06.5v1H7v-1l.06-.5z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Jovian docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Installation
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        
+<a href="https://github.com/DennisSchmitz/Jovian" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Jovian on Github
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../CLI/" class="md-tabs__link">
+      Command line reference
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../FAQ/" class="md-tabs__link">
+      FAQ and known issues
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../Requirements/" class="md-tabs__link md-tabs__link--active">
+        Getting started
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Workflows/Overview/" class="md-tabs__link">
+        Workflows
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../About/Contributing/" class="md-tabs__link">
+        About
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Releases/Upgrading/" class="md-tabs__link">
+        Releases
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Jovian docs" class="md-nav__button md-logo" aria-label="Jovian docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 2h2v2c0 1.44.68 2.61 1.88 3.78.86.83 2.01 1.63 3.21 2.42l-1.83 1.19C8.27 10.72 7.31 10 6.5 9.21 5.07 7.82 4 6.1 4 4V2m14 0h2v2c0 2.1-1.07 3.82-2.5 5.21-1.41 1.38-3.21 2.52-4.96 3.63-1.75 1.12-3.45 2.21-4.66 3.38C6.68 17.39 6 18.56 6 20v2H4v-2c0-2.1 1.07-3.82 2.5-5.21 1.41-1.38 3.21-2.52 4.96-3.63 1.75-1.12 3.45-2.21 4.66-3.38C17.32 6.61 18 5.44 18 4V2m-3.26 10.61c.99.67 1.95 1.39 2.76 2.18C18.93 16.18 20 17.9 20 20v2h-2v-2c0-1.44-.68-2.61-1.88-3.78-.86-.83-2.01-1.63-3.21-2.42l1.83-1.19M7 3h10v1l-.06.5H7.06L7 4V3m.68 3h8.64c-.24.34-.52.69-.9 1.06l-.51.44H9.07l-.49-.44c-.38-.37-.66-.72-.9-1.06m1.41 10.5h5.84l.49.44c.38.37.66.72.9 1.06H7.68c.24-.34.52-.69.9-1.06l.51-.44m-2.03 3h9.88l.06.5v1H7v-1l.06-.5z"/></svg>
+
+    </a>
+    Jovian docs
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/DennisSchmitz/Jovian" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Jovian on Github
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CLI/" class="md-nav__link">
+        Command line reference
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../FAQ/" class="md-nav__link">
+        FAQ and known issues
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+      
+      <label class="md-nav__link" for="__nav_4">
+        Getting started
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Getting started" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Getting started
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Requirements/" class="md-nav__link">
+        Requirements
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Installation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Installation
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#downloading-the-package" class="md-nav__link">
+    Downloading the package
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#automatic-installation-process-recommended" class="md-nav__link">
+    Automatic installation process (recommended)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#manual-installation" class="md-nav__link">
+    Manual installation
+  </a>
+  
+    <nav class="md-nav" aria-label="Manual installation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#installing-miniconda" class="md-nav__link">
+    Installing (mini)conda
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installing-the-databases" class="md-nav__link">
+    Installing the databases
+  </a>
+  
+    <nav class="md-nav" aria-label="Installing the databases">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#download-and-install-the-human-genome" class="md-nav__link">
+    Download and install the human genome
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-and-install-the-blast-nt-database" class="md-nav__link">
+    Download and install the BLAST NT database
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-and-install-the-ncbi-taxdb" class="md-nav__link">
+    Download and install the NCBI TaxDB
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-and-install-the-mgkit-lca-database" class="md-nav__link">
+    Download and install the MGKit-LCA database
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-and-install-the-krona-lca-database" class="md-nav__link">
+    Download and install the Krona-LCA database
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-the-virus-host-interaction-database" class="md-nav__link">
+    Download the Virus-Host Interaction database
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-and-install-the-ncbi-new_taxdump-database" class="md-nav__link">
+    Download and install the NCBI New_taxdump database
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      <label class="md-nav__link" for="__nav_5">
+        Workflows
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Workflows" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Workflows
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Workflows/Overview/" class="md-nav__link">
+        Workflow overview
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_2" type="checkbox" id="__nav_5_2" >
+      
+      <label class="md-nav__link" for="__nav_5_2">
+        Illumina
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Illumina" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_2">
+          <span class="md-nav__icon md-icon"></span>
+          Illumina
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Workflows/Illumina/Metagenomics/" class="md-nav__link">
+        Metagenomics
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Workflows/Illumina/Reference/" class="md-nav__link">
+        Reference based
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_3" type="checkbox" id="__nav_5_3" >
+      
+      <label class="md-nav__link" for="__nav_5_3">
+        Nanopore
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Nanopore" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_3">
+          <span class="md-nav__icon md-icon"></span>
+          Nanopore
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Workflows/Nanopore/Reference/" class="md-nav__link">
+        Reference based
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      <label class="md-nav__link" for="__nav_6">
+        About
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="About" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          About
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../About/Contributing/" class="md-nav__link">
+        Contributing &amp; Support
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../About/Acknowledgements/" class="md-nav__link">
+        Acknowledgements
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../About/Authors/" class="md-nav__link">
+        Authors
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      <label class="md-nav__link" for="__nav_7">
+        Releases
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Releases" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Releases
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Releases/Upgrading/" class="md-nav__link">
+        Upgrading from 1.0.x to 1.1.x
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Releases/Changelog/" class="md-nav__link">
+        Changelog
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#downloading-the-package" class="md-nav__link">
+    Downloading the package
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#automatic-installation-process-recommended" class="md-nav__link">
+    Automatic installation process (recommended)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#manual-installation" class="md-nav__link">
+    Manual installation
+  </a>
+  
+    <nav class="md-nav" aria-label="Manual installation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#installing-miniconda" class="md-nav__link">
+    Installing (mini)conda
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installing-the-databases" class="md-nav__link">
+    Installing the databases
+  </a>
+  
+    <nav class="md-nav" aria-label="Installing the databases">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#download-and-install-the-human-genome" class="md-nav__link">
+    Download and install the human genome
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-and-install-the-blast-nt-database" class="md-nav__link">
+    Download and install the BLAST NT database
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-and-install-the-ncbi-taxdb" class="md-nav__link">
+    Download and install the NCBI TaxDB
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-and-install-the-mgkit-lca-database" class="md-nav__link">
+    Download and install the MGKit-LCA database
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-and-install-the-krona-lca-database" class="md-nav__link">
+    Download and install the Krona-LCA database
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-the-virus-host-interaction-database" class="md-nav__link">
+    Download the Virus-Host Interaction database
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-and-install-the-ncbi-new_taxdump-database" class="md-nav__link">
+    Download and install the NCBI New_taxdump database
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="installation-instructions">Installation instructions<a class="headerlink" href="#installation-instructions" title="Permanent link">&para;</a></h1>
+<p>The installation process of Jovian is made to be as easy as possible.<br />
+Depending on your preferences, the installation can be done automatically with a single command or through manual individual commands.  </p>
+<p>For inexperienced users, we <strong>strongly</strong> recommend you to use the automated installer.</p>
+<h2 id="downloading-the-package">Downloading the package<a class="headerlink" href="#downloading-the-package" title="Permanent link">&para;</a></h2>
+<p>The command below will download the latest Jovian release, places it in a directory named <code>Jovian</code> and will automatically navigate to this newly made directory.</p>
+<div class="highlight"><pre><span></span><code>git clone https://github.com/DennisSchmitz/Jovian.git<span class="p">;</span> <span class="nb">cd</span> Jovian
+</code></pre></div>
+<p>If you wish to use Jovian on a per-project basis (recommended), then use the snippet below and change <code class="highlight"><span class="s2">&quot;&lt;project&gt;&quot;</span></code> to the name of your desired project. This will automatically navigate you to the newly made directory.
+<div class="highlight"><pre><span></span><code><span class="nv">dir</span><span class="o">=</span><span class="s2">&quot;&lt;project&gt;&quot;</span><span class="p">;</span> git clone https://github.com/DennisSchmitz/Jovian.git <span class="nv">$dir</span><span class="p">;</span> <span class="nb">cd</span> <span class="nv">$dir</span>
+</code></pre></div></p>
+<h2 id="automatic-installation-process-recommended">Automatic installation process (recommended)<a class="headerlink" href="#automatic-installation-process-recommended" title="Permanent link">&para;</a></h2>
+<div class="tabbed-set" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">Installation of Jovian and the required databases</label><div class="tabbed-content">
+<p>The automated installer will go through the installation process of basic Jovian dependencies and will install them for you, as well as the required databases. You'll only have to go through this process once.  </p>
+<p>The entire installation process will take (depending on the speed of your computer) about an hour or two. There are a few manual interactions where you will be asked to confirm an action or to make a choice of options.  </p>
+<p>Once the installer is busy with downloading and installing the required databases then it's fine to leave your pc as this step will take a long time without manual interventions.</p>
+<p>Start the installer with the following command:</p>
+<div class="highlight"><pre><span></span><code>bash jovian -id
+</code></pre></div>
+<p>You can skip the various confirmation-prompts by using the <code>-y</code> flag. This will make sure all installation steps will simply execute with the default settings without you having to confirm.</p>
+<div class="highlight"><pre><span></span><code>bash jovian -id -y
+</code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>It's possible that there were errors during the installation of the MGKit-LCA database, resulting in an incomplete database installation (which most likely will cause errors during your analyis).<br />
+This can be solved by running the following snippet directly after the initial installation procedure is finished:
+<div class="highlight"><pre><span></span><code>bash ~/database-updater.sh
+</code></pre></div></p>
+<p>This script (<code>database-updater.sh</code>) is generated by the Jovian installation procedure and can be used to keep the databases, required by Jovian, up-to-date on your system.</p>
+</div>
+</div>
+<input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">Installation of Jovian with the databases already installed</label><div class="tabbed-content">
+<p>When you don't have to install the required databases, you can simply start an analysis.</p>
+<p>If it's the first time you're using Jovian then the interactive installer will be started. There are a few manual interactions where you will be asked to confirm an action or to make a choice of options.</p>
+<p>The entire installation procedure will take about an hour (depending on the speed of your computer).</p>
+<p>During the installation you will be asked <em>where</em> the required databases are located. If you're unsure about this information then please consult with your local system administrator before continuing.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>You can skip nearly all prompts and simply go for the default settings by using <code>-y</code> at the end of your command.</p>
+</div>
+</div>
+</div>
+<h2 id="manual-installation">Manual installation<a class="headerlink" href="#manual-installation" title="Permanent link">&para;</a></h2>
+<div class="admonition warning">
+<p class="admonition-title">Please only perform a manual installation if you're an experienced Linux user.</p>
+</div>
+<h3 id="installing-miniconda">Installing (mini)conda<a class="headerlink" href="#installing-miniconda" title="Permanent link">&para;</a></h3>
+<p>Download and run the latest (mini)conda installer with the command below:</p>
+<p><div class="highlight"><pre><span></span><code>wget -O miniconda.sh https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh<span class="p">;</span> <span class="se">\</span>
+chmod +x miniconda.sh<span class="p">;</span> sh miniconda.sh <span class="o">&amp;&amp;</span> <span class="se">\</span>
+rm miniconda.sh
+</code></pre></div>
+Follow the instructions given by the miniconda installer, please verify wether your installation was successful with the following:
+<div class="highlight"><pre><span></span><code>. ~/.bashrc<span class="p">;</span> conda activate base
+</code></pre></div>
+The "base" environment should be ready active now, this is shown as <code class="highlight"><span class="s2">&quot;(base) user@host:&quot;</span></code> in your terminal.<br />
+If the snippet above gives an error then that means the conda installation went wrong somewhere, or a required setting is missing. Please type <code class="highlight">conda init bash</code> in your terminal and try the snippet above again.<br />
+If there's still an error, please try installing miniconda again.</p>
+<h3 id="installing-the-databases">Installing the databases<a class="headerlink" href="#installing-the-databases" title="Permanent link">&para;</a></h3>
+<p>First create the required <code>Jovian_helper</code> conda environment and activate it. You can do this by running the following snippet:</p>
+<p><div class="highlight"><pre><span></span><code>conda env create -f bin/envs/Jovian_helper_environment.yaml<span class="p">;</span> <span class="se">\</span>
+conda activate Jovian_helper
+</code></pre></div>
+<mark class="critic">Please note that this snippet must be ran for the location where Jovian was downloaded</mark></p>
+<p>The conda environment <code>Jovian_helper</code> should be active now. If this environment is not active then please try to activate it with <code>conda activate Jovian_helper</code></p>
+<h4 id="download-and-install-the-human-genome">Download and install the human genome<a class="headerlink" href="#download-and-install-the-human-genome" title="Permanent link">&para;</a></h4>
+<p>Navigate to the location on your system where you wish to download the human genome.<br />
+For example: <code>/mnt/db/Human_genome</code>  </p>
+<p>Use the following snippet in order to download the human genome, remove the Epstein-barr virus contig and index the updated genome:
+<div class="highlight"><pre><span></span><code><span class="nv">a</span><span class="o">=</span><span class="k">$(</span>grep -c ^processor /proc/cpuinfo<span class="k">)</span><span class="p">;</span> <span class="nv">b</span><span class="o">=</span><span class="k">$(</span><span class="nb">echo</span> <span class="k">$((</span>a-2<span class="k">)))</span>
+aws s3 --no-sign-request --region eu-west-1 sync s3://ngi-igenomes/igenomes/Homo_sapiens/NCBI/GRCh38/Sequence/WholeGenomeFasta/ ./
+awk <span class="s1">&#39;{print &gt;out}; /&gt;chrEBV/{out=&quot;EBV.fa&quot;}&#39;</span> <span class="nv">out</span><span class="o">=</span>temp.fa genome.fa<span class="p">;</span> head -n -1 temp.fa &gt; nonEBV.fa
+rm EBV.fa temp.fa
+mv nonEBV.fa genome.fa
+bowtie2-build --threads <span class="s2">&quot;</span><span class="si">${</span><span class="nv">b</span><span class="si">}</span><span class="s2">&quot;</span> genome.fa genome.fa
+<span class="c1"># &gt;&gt; Press enter &lt;&lt;</span>
+</code></pre></div></p>
+<p>Simply copy this snippet, paste it in your terminal and press enter. The process of downloading and re-indexing the human genome will take roughly 30 minutes or longer, depending on your computer/server.</p>
+<h4 id="download-and-install-the-blast-nt-database">Download and install the BLAST NT database<a class="headerlink" href="#download-and-install-the-blast-nt-database" title="Permanent link">&para;</a></h4>
+<p>Navigate to the location on your system where you wish to download the NCBI BLAST NT database.<br />
+For example: <code>/mnt/db/NT_database</code>  </p>
+<p>Use the following command to download and/or update the NCBI BLAST NT database:
+<div class="highlight"><pre><span></span><code>perl <span class="si">${</span><span class="nv">CONDA_PREFIX</span><span class="si">}</span>/bin/update_blastdb.pl --decompress nt
+</code></pre></div></p>
+<p>Depending on your download speed, this process can take (several) hours.</p>
+<h4 id="download-and-install-the-ncbi-taxdb">Download and install the NCBI TaxDB<a class="headerlink" href="#download-and-install-the-ncbi-taxdb" title="Permanent link">&para;</a></h4>
+<p>Navigate to the location on your system where you wish to download the NCBI TaxDB.<br />
+For example: <code>/mnt/db/taxdb</code>  </p>
+<p>Use the following command to download and/or update the NCBI TaxDB database:
+<div class="highlight"><pre><span></span><code>perl <span class="si">${</span><span class="nv">CONDA_PREFIX</span><span class="si">}</span>/bin/update_blastdb.pl --decompress taxdb
+</code></pre></div></p>
+<p>depending on your download speed, this process can take several minutes.</p>
+<h4 id="download-and-install-the-mgkit-lca-database">Download and install the MGKit-LCA database<a class="headerlink" href="#download-and-install-the-mgkit-lca-database" title="Permanent link">&para;</a></h4>
+<p>Navigate to the location on your system where you wish to download the MGKit database.<br />
+For example: <code>/mnt/db/mgkit_database</code>  </p>
+<p>Use the following snippet to download and/or update the MGKit database(s):
+<div class="highlight"><pre><span></span><code>bash <span class="s2">&quot;</span><span class="si">${</span><span class="nv">CONDA_PREFIX</span><span class="si">}</span><span class="s2">&quot;</span>/bin/download-taxonomy.sh
+rm taxdump.tar.gz
+wget -O nucl_gb.accession2taxid.gz ftp://ftp.ncbi.nlm.nih.gov/pub/taxonomy/accession2taxid/nucl_gb.accession2taxid.gz
+wget -O nucl_gb.accession2taxid.gz.md5 https://ftp.ncbi.nlm.nih.gov/pub/taxonomy/accession2taxid/nucl_gb.accession2taxid.gz.md5
+md5sum -c nucl_gb.accession2taxid.gz.md5
+<span class="c1"># &gt;&gt; Press enter &lt;&lt;</span>
+</code></pre></div></p>
+<p>If you get an error during this installation, then please deactivate and reactivate the conda environment with: <code class="highlight">conda deactivate<span class="p">;</span> conda activate Jovian_helper</code></p>
+<h4 id="download-and-install-the-krona-lca-database">Download and install the Krona-LCA database<a class="headerlink" href="#download-and-install-the-krona-lca-database" title="Permanent link">&para;</a></h4>
+<p>Navigate to the location on your system where you wish to download the Krona-LCA database.<br />
+For example: <code>/mnt/db/krona_database</code></p>
+<p>Use the following commands to download and/or update the Krona-LCA database(s):
+<div class="highlight"><pre><span></span><code>bash <span class="s2">&quot;</span><span class="si">${</span><span class="nv">CONDA_PREFIX</span><span class="si">}</span><span class="s2">&quot;</span>/opt/krona/updateTaxonomy.sh ./
+bash <span class="s2">&quot;</span><span class="si">${</span><span class="nv">CONDA_PREFIX</span><span class="si">}</span><span class="s2">&quot;</span>/opt/krona/updateAccessions.sh ./
+<span class="c1"># &gt;&gt; Press Enter &lt;&lt;</span>
+</code></pre></div></p>
+<h4 id="download-the-virus-host-interaction-database">Download the Virus-Host Interaction database<a class="headerlink" href="#download-the-virus-host-interaction-database" title="Permanent link">&para;</a></h4>
+<p>Navigate to the location on your system where you wish to download the Virus-Host Interaction database.<br />
+For example: <code>/mnt/db/virus-Host_interaction</code>  </p>
+<p>Use the following command to download and/or update the Virus-Host Interaction database:
+<div class="highlight"><pre><span></span><code>wget -O virushostdb.tsv ftp://ftp.genome.jp/pub/db/virushostdb/virushostdb.tsv
+</code></pre></div></p>
+<h4 id="download-and-install-the-ncbi-new_taxdump-database">Download and install the NCBI New_taxdump database<a class="headerlink" href="#download-and-install-the-ncbi-new_taxdump-database" title="Permanent link">&para;</a></h4>
+<p>Navigate to the location on your system where you wish to download and install the New_taxdump database.<br />
+For example: <code>/mnt/db/new_taxdump</code>  </p>
+<p>Use the following snippet to download and/or update the NCBI New_taxdump database(s):
+<div class="highlight"><pre><span></span><code>wget -O new_taxdump.tar.gz ftp://ftp.ncbi.nlm.nih.gov/pub/taxonomy/new_taxdump/new_taxdump.tar.gz
+wget -O new_taxdump.tar.gz.md5 https://ftp.ncbi.nlm.nih.gov/pub/taxonomy/new_taxdump/new_taxdump.tar.gz.md5
+tar -xzf new_taxdump.tar.gz
+<span class="k">for</span> file <span class="k">in</span> *.dmp<span class="p">;</span> <span class="k">do</span> gawk <span class="s1">&#39;{gsub(&quot;\t&quot;,&quot;&quot;); if(substr($0,length($0),length($0))==&quot;|&quot;) print substr($0,0,length($0)-1); else print $0}&#39;</span> &lt; <span class="si">${</span><span class="nv">file</span><span class="si">}</span> &gt; <span class="si">${</span><span class="nv">file</span><span class="si">}</span>.delim<span class="p">;</span> <span class="k">done</span>
+<span class="c1"># &gt;&gt; Press Enter &lt;&lt;</span>
+</code></pre></div></p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href="../Requirements/" class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Requirements
+            </div>
+          </div>
+        </a>
+      
+      
+        <a href="../../Workflows/Overview/" class="md-footer__link md-footer__link--next" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Workflow overview
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.instant"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../assets/javascripts/workers/search.d351de03.min.js", "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.34eae1b6.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js"></script>
+      
+        <script src="../../Assets/tables.js"></script>
+      
+    
+  </body>
+</html>
